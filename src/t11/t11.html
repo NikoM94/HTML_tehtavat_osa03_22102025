@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtävä 11</title>
+    <link rel="stylesheet" href="t11.css">
+</head>
+<body>
+    <div id="eleventh">
+        <form onsubmit="return false">
+            <h2>Anna ensin pienempi numero ja sitten suurempi numero, niin tulostan parittomien ja parillisten summan</h2><br>
+            <label for="smallerNum">Anna pienempi numero:<label>
+            <input type="number" id="smallerNum"><br>
+            <label for="biggerNum">Anna suurempi numero:<label>
+            <input type="number" id="biggerNum"><br>
+            <button onclick="printOddEven()">Laske</button>
+            <p id="t11veven"></p>
+            <p id="t11vodd"></p>
+        </form>
+    </div>
+</body>
+<script src="t11.js"></script>
+</html>
